@@ -1,0 +1,4 @@
+Week 1
+  - Two Paper Based Prototype for your section.
+  - Split Functionality of section
+  - Upload your section to GitHub, titled by the section name.
