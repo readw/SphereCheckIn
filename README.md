@@ -1,2 +1,2 @@
-# SphereCheckIn
-Sphere Ski-Slope Check-In System
+# Sphere Ski-Slope Check-In
+
