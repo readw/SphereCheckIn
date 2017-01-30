@@ -1,3 +1,7 @@
+Software:
+  - MAMP / WAMP
+  - Brackets text
+
 Week 1
   - Two Paper Based Prototype for your section.
   - Split Functionality of section
