@@ -1,8 +1,28 @@
 Software:
+=========
   - MAMP / WAMP
+      - https://www.mamp.info/en/
+      - http://www.wampserver.com/en/
+      
   - Brackets text
+      -http://brackets.io
+
+Websites:
+=========
+- Web Tutorials - http://www.w3schools.com
+- Look at MVC Structure - https://en.wikipedia.org/wiki/Model–view–controller
 
 Week 1
+======
   - Two Paper Based Prototype for your section.
   - Split Functionality of section
   - Upload your section to GitHub, titled by the section name.
+  
+Week 2
+======
+    Group:
+        - Use Case Diagram & Documentation of required functions (not highlighted in green).
+        
+    Individual:
+        - Class Diagram / Flowchart on your functionality.
+        - Download Software above.
