@@ -20,10 +20,19 @@ Week 1
   
 Week 2
 ======
-    Group:
-        - Use Case Diagram & Documentation of required functions (not highlighted in green).
+  Group:
+    - Use Case Diagram & Documentation of required functions (not highlighted in green).
         
-    Individual:
-        - Class Diagram / Flowchart on your functionality.
-        - Create Domain Modal via Use Case Realisation.
-        - Download Software above.
+  Individual:
+    - Class Diagram / Flowchart on your functionality.
+    - Create Domain Modal via Use Case Realisation.
+    - Download Software above.
+
+Week 3
+======
+  Group:
+    - Determine final prototype design.
+    - Template Databases, and normalise.
+  
+  Individual:
+    - From created tables start to template out designs of final interfaces in HTML, CSS and JS (PHP from Week 4)
