@@ -25,4 +25,5 @@ Week 2
         
     Individual:
         - Class Diagram / Flowchart on your functionality.
+        - Create Domain Modal via Use Case Realisation.
         - Download Software above.
