@@ -4,21 +4,24 @@ Software:
       - https://www.mamp.info/en/
       - http://www.wampserver.com/en/
       
-  - Brackets text
+  - Brackets / Notepad ++
       -http://brackets.io
+      -https://notepad-plus-plus.org/
 
 Websites:
 =========
 - Web Tutorials - http://www.w3schools.com
 - Look at MVC Structure - https://en.wikipedia.org/wiki/Model–view–controller
+- Codecademy - https://www.codecademy.com/
+- Lynda.com - https://www.lynda.com/ [Use uni account, login under organisation, get many tutorials and resources VERY GOOD SITE]
 
-Week 1
+Week 1  - DONE
 ======
   - Two Paper Based Prototype for your section.
   - Split Functionality of section
   - Upload your section to GitHub, titled by the section name.
   
-Week 2
+Week 2  - DONE
 ======
   Group:
     - Use Case Diagram & Documentation of required functions (not highlighted in green).
@@ -28,7 +31,7 @@ Week 2
     - Create Domain Modal via Use Case Realisation.
     - Download Software above.
 
-Week 3
+Week 3 - CURRENT
 ======
   Group:
     - Determine final prototype design.
@@ -36,3 +39,18 @@ Week 3
   
   Individual:
     - From created tables start to template out designs of final interfaces in HTML, CSS and JS (PHP from Week 4)
+    - DON'T COMMIT TEMPLATES TO MAIN TREE AS THIS WILL CAUSE COLLIDES WITH EVERYONES WORK!!!!
+    
+Week 4
+======
+  Group:
+    - Intergrate developed indidual pages into one system.
+    - Assist in finalising designs on sites.
+    - Go back over documentation to check for any missing details.
+ 
+  Individual:
+    - Continue from last weeks implementation.
+    
+  WEDNESDAY
+    - EXPECT FUNCTIONALITES TO BE COMPLETE
+    
