@@ -5,8 +5,17 @@ Software:
       - http://www.wampserver.com/en/
       
   - Brackets / Notepad ++
-      -http://brackets.io
-      -https://notepad-plus-plus.org/
+      - http://brackets.io
+      - https://notepad-plus-plus.org/
+  
+  - Frameworks
+      - Bootstrap - http://getbootstrap.com/
+  
+  - Language List
+      - PHP
+      - HTML
+      - CSS
+      - JavaScript
 
 Websites:
 =========
@@ -40,6 +49,13 @@ Week 3 - CURRENT
   Individual:
     - From created tables start to template out designs of final interfaces in HTML, CSS and JS (PHP from Week 4)
     - DON'T COMMIT TEMPLATES TO MAIN TREE AS THIS WILL CAUSE COLLIDES WITH EVERYONES WORK!!!!
+    
+    COLOUR
+    - #7CB9BF / rgb(124,185,191)
+    - #537C7F / rgb(83, 124, 127)
+    - #A6F7FF / rgb(166, 247, 255)
+    - #293E40 / rbg(41, 62, 64)
+    - #95DF35 / rgb(149, 223, 229)
     
 Week 4
 ======
