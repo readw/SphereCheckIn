@@ -43,7 +43,7 @@ Week 2  - DONE
     - Create Domain Modal via Use Case Realisation.
     - Download Software above.
 
-Week 3
+Week 3 - DONE
 ======
   Group:
     - Determine final prototype design.
