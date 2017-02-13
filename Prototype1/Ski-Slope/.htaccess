@@ -1,0 +1,12 @@
+#DO NOT TOUCH *IMPORTANT*
+
+#ErrorDocument 404 /View/ErrorMessage/404.html
+
+#RewriteEngine on  
+#RewriteBase /
+
+#RewriteCond %{THE_REQUEST} (.*)\.php  
+#RewriteRule ^(.*)\.php $1.html [R=404,L]  
+
+#RewriteCond %{THE_REQUEST} (.*)\.html 
+#RewriteRule ^(.*)\.html $1.php [L]
