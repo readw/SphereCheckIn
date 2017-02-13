@@ -43,7 +43,7 @@ Week 2  - DONE
     - Create Domain Modal via Use Case Realisation.
     - Download Software above.
 
-Week 3 - CURRENT
+Week 3
 ======
   Group:
     - Determine final prototype design.
@@ -60,7 +60,7 @@ Week 3 - CURRENT
     - #293E40 / rbg(41, 62, 64)
     - #95DF35 / rgb(149, 223, 229)
     
-Week 4
+Week 4 - CURRENT
 ======
   Group:
     - Assist in finalising designs on sites.
@@ -71,9 +71,6 @@ Week 4
   Individual:
     - Continue from last weeks implementation if not finished and start developing,
     your functionality.
-    
-  WEDNESDAY
-    - EXPECT WEBSITE DESIGNS OF FUNCTIONALITIES TO BE COMPLETED
 
 Week 5
 ======
