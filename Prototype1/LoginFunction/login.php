@@ -1,0 +1,91 @@
+<?php
+    include 'connect.php';
+    include 'organise.php';
+    session_start();
+    
+    
+    if (isset($_POST['memno'])){
+
+        $_POST['inputId'] = $_POST['memno'];
+        
+        $tmp = $_POST['year'] . '-' . $_POST['month'] . '-' . $_POST['day'];
+        $_POST['inputDOB'] = $tmp;
+        
+        if (checkLogin() == true){ 
+?>
+            <div class="alert alert-success" role="alert">
+                <p>Successfully Logged In</p>
+            </div>
+        
+        <?php
+        }
+        else {
+        ?>
+            <div class="alert alert-danger" role="alert">
+                <p>Login Failed</p>
+            </div>
+        <?php
+        }
+    }
+    
+    
+?>
+
+<html>
+    
+<head>
+<meta charset="UTF-8">
+<title> Sphere Slopes Login </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- Latest compiled and minified JavaScript -->
+
+
+</head>
+    
+<body class="login container">
+<h1>LOGIN</h1>
+
+
+<form action="login.php" method="POST">
+    <div class="form-group">
+        <input type="mem" name="memno" class="form-control login-input" placeholder="membership no." size="60" maxlength="7">
+    </div>
+    
+
+    <div class="form-group col-md-4">
+        <input type="dob" class="dob form-control login-input col-md-4" name="day" placeholder="dd" maxlength="2">
+    </div>
+    <div class="form-group col-md-4">
+        <input type="dob" class="dob form-control login-input col-md-4" name="month" placeholder="mm" maxlength="2">
+    </div>
+    <div class="form-group col-md-4">
+        <input type="dob" class="dob form-control login-input col-md-4" name="year" placeholder="yyyy" maxlength="4">
+    </div>
+    
+    <div class="form-group">
+        <button class="btn btn-login btn-block" type="submit" name="submit">LOGIN</button>
+    </div>
+
+</form>
+
+
+
+<div class="bottom-block">
+    <a class="btn" name="register">register</a>
+</div>
+
+<div>
+    <a class="btn" name="forgot">forgotten membership no.</a>
+</div>
+
+<?php
+    
+?>
+
+
+</body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>

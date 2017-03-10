@@ -1,0 +1,95 @@
+@font-face {
+  font-family: InputFont;
+  src: url(‘century-gothic.ttf’);
+}
+
+body {
+    background-color: powderblue;
+    background-image: url("mountain.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+h1 {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-family: "InputFont";
+    margin:0 auto;
+    vertical-align: middle;
+    background-color: #828c8b;
+}
+p {
+    color: red;
+}
+
+.form-group[name="dob"] {
+    margin-left: 10px;
+}
+
+
+.login-input[name="memno"]{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login.container {
+    width: 50%;
+    height: 50%;
+    margin-top: 12%;
+}
+
+.form-group{
+    padding: 0;
+    margin:0 auto;
+    margin-left: 30px;
+    background-color: #e2e2e2;
+}
+
+.row {
+    margin:0 auto;
+}
+
+.login-input {
+    border-radius: 0;
+    font-family: "InputFont";
+    font-size: 1.3em;
+    text-align: center;
+    padding: 15px;
+    width: 75%;
+    margin:0 auto;
+    
+}
+
+a[name="register"] {
+    text-decoration: underline;
+    background-color: #e2e2e2
+}
+
+a[name="forgot"] {
+    color: black;
+    background-color: #e2e2e2
+}
+
+.btn-login{
+    font-family: "InputFont";
+    font-size: 18px;
+    text-align: center;
+    height: 50px;
+    display:block; /* change this from inline-block */
+    margin:0 auto; /* this will center  it */    
+    position:relative;
+    font-style:normal;
+    font-weight:normal;
+    outline:none;
+    color:#00000;
+    border:none;
+    text-decoration:none;
+    cursor:pointer;
+    border-radius:2px;
+    background-color:#4286f4;
+    border-bottom:1px solid #4286f4;
+    width: 30%;
+}
