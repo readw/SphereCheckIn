@@ -1,0 +1,41 @@
+MVC Database Connection (using Prototype 2 Template)
+====================================================
+
+By William Read
+===============
+
+This tutorial is using the MVC framework template I have set up for all other coding elements.
+Please message me for help understanding the following tutorial, if you come across any issues.
+
+1) Navigate to Modal/Database.php, here you will need to change the values to match your localhost database.
+   below is an example of what the result should be:
+   
+   '''
+   $this->servername = "localhost";
+   $this->username = "your_username";
+   $this->password = "your_password";
+   $this->database = "your_database_schema";
+   '''
+   
+   Make sure to replace Username, Password and Database with your values.
+   
+2) Next, within your Controller create include an instance of the database for a particular class this can either be
+   done in the __construct or index function. This is so to prevent any database errors.
+   
+   '''
+   $conn = new dbConnect;
+   $this->dbConn = $conn->connect();
+   '''
+   
+3) Finally when connecting to your modal make sure to pass as a parameter to the called function of the model this
+   instance so as to allow you to perform queries its contents.
+   
+   Example of Modal Function (found in Modal/Login.php)
+   ====================================================
+   '''
+   function checkMem($conn, $return) {
+       $sql = "SELECT * FROM Users WHERE userId=".$_POST['inputId'];
+       $result = $conn->query($sql);
+       return result
+   }
+   '''
