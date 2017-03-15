@@ -1,0 +1,42 @@
+.filter-group {
+    margin-bottom: 5px;
+}
+
+.timetable {
+    background-color: rgba(200,200,200,0.8);
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+.table {
+    color: black;
+    background-color: rgba(100,100,100,0.7);
+    border: 1px solid black;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+thead>tr>th {
+    text-align: center;
+    border-bottom: 3px solid black !important;
+}
+
+tbody>tr>td {
+    vertical-align: middle !important;
+    border-bottom: 1px solid black;
+}
+
+.table-striped>tbody>tr:nth-child(odd) {
+    background-color: rgba(183,234,255, 0.7);
+}
+
+.table-striped>tbody>tr:nth-child(even) {
+    background-color: rgba(129, 219, 255, 0.7);
+}
+
+.table-striped>tbody>tr:hover {
+    background-color: rgba(47,150,255,0.3);
+    cursor: pointer;
+}

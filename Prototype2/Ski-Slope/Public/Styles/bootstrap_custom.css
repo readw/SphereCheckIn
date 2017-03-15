@@ -1,0 +1,79 @@
+html, body {
+    font-family: "Century Gothic", sans-serif, serif;
+    background-color: #DCF5FF;
+    color: white;
+}
+
+body {
+    /* Euan Campbell's Background Styles */
+    background-repeat: no-repeat;
+    background-image: url("/Public/Media/Images/mountain.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+h1, h2 {
+    text-decoration: underline;
+}
+
+/* Select Option Styles */
+select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/Public/Media/Images/Icons/dropdown.svg") !important;
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+}
+
+/*option {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+}*/
+
+.btn {
+    transition: 0.3s ease
+}
+
+.home-logo {
+    width: 200px;
+    height: 200px;
+    animation: pulse 1s ease;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.margin-top-50{
+    margin-top: 50px;
+}
+
+.margin-bottom-5{
+    margin-bottom: 5px;
+}
+
+.padding-none {
+    padding: 0;
+}
+
+@keyframes pulse
+{
+    0% {
+        transform: scale( 1 );
+    }
+    
+    60% {
+        transform: scale( .7 );
+    }
+    
+    100% {
+        transform: scale( 1 );
+    }
+}
