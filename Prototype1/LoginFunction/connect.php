@@ -75,4 +75,48 @@
         
     }
     
+    function checkEmailPhone($email, $phone){
+        $servername = getenv('IP');
+        $username = getenv('C9_USER');
+        $password = "";
+        $database = "c9";
+        $dbport = 3306;
+        
+        $return = array();
+    
+        // Create connection
+        $conn = mysqli_connect($servername, $username, $password, $database, $dbport);
+        
+        // Check connection
+        if (!$conn) {
+            die("Connection failed: " . mysqli_connect_error() );
+        }
+        
+        
+        $sql = "SELECT * FROM Users WHERE email='".$email."'";
+        $result = $conn->query($sql);
+        
+        if ($result->num_rows > 0) {
+            echo "WORKING";
+            return true;
+        }
+        
+        else {
+            $sql = "SELECT * FROM Users WHERE telephone=$phone";
+            $result = $conn->query($sql);
+            
+            if ($result->num_rows > 0) {
+                return true;
+            }
+            else {
+                return false;
+            }
+    
+            
+            $conn->close();
+            return($return);
+        }
+        
+    }
+    
 ?>

@@ -50,35 +50,37 @@
 
 
 <form action="login.php" method="POST">
-    <div class="form-group">
-        <input type="mem" name="memno" class="form-control login-input" placeholder="membership no." size="60" maxlength="7">
+    <div class="row">
+        <div class="form-group">
+            <input type="mem" name="memno" class="form-control login-input" placeholder="membership no." size="60" maxlength="6">
+        </div>
     </div>
     
-
-    <div class="form-group col-md-4">
-        <input type="dob" class="dob form-control login-input col-md-4" name="day" placeholder="dd" maxlength="2">
+    <div class="row" name="dobInput">
+        <div class="form-group col-md-3 col-offset-md-1">
+            <input type="dob" class="dob form-control login-input col-md-4" name="day" placeholder="dd" maxlength="2">
+        </div>
+        <div class="form-group col-md-3 col-offset-md-1">
+            <input type="dob" class="dob form-control login-input col-md-4" name="month" placeholder="mm" maxlength="2">
+        </div>
+        <div class="form-group col-md-3 col-offset-md-1">
+            <input type="dob" class="dob form-control login-input col-md-4" name="year" placeholder="yyyy" maxlength="4">
+        </div>
+        
+        <div class="form-group">
+            <button class="btn btn-login btn-block" href = "http://www.google.co.uk" type="submit" name="submit">LOGIN</button>
+        </div>
     </div>
-    <div class="form-group col-md-4">
-        <input type="dob" class="dob form-control login-input col-md-4" name="month" placeholder="mm" maxlength="2">
-    </div>
-    <div class="form-group col-md-4">
-        <input type="dob" class="dob form-control login-input col-md-4" name="year" placeholder="yyyy" maxlength="4">
-    </div>
-    
-    <div class="form-group">
-        <button class="btn btn-login btn-block" type="submit" name="submit">LOGIN</button>
-    </div>
-
 </form>
 
 
 
 <div class="bottom-block">
-    <a class="btn" name="register">register</a>
+    <a href="register.php" class="btn" name="register">register</a>
 </div>
 
 <div>
-    <a class="btn" name="forgot">forgotten membership no.</a>
+    <a href="forgotmemno.php" class="btn" name="forgot">forgotten membership no.</a>
 </div>
 
 <?php

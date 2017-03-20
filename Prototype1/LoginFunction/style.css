@@ -1,6 +1,6 @@
 @font-face {
-  font-family: InputFont;
-  src: url(‘century-gothic.ttf’);
+  font-family: CenturyGothic;
+  src: url(century-gothic.ttf);
 }
 
 body {
@@ -9,6 +9,7 @@ body {
     background-size: cover;  
     background-repeat: no-repeat;
     background-position: center center;
+    font-family: Helvetica;
 }
 h1 {
     flex-direction: column;
@@ -16,10 +17,12 @@ h1 {
     text-align: center;
     color: white;
     font-size: 48px;
-    font-family: "InputFont";
+    font-family: CenturyGothic;
     margin:0 auto;
     vertical-align: middle;
     background-color: #828c8b;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 p {
     color: red;
@@ -28,7 +31,9 @@ p {
 .form-group[name="dob"] {
     margin-left: 10px;
 }
-
+.recoverButton{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .login-input[name="memno"]{
     padding-top: 10px;
@@ -42,19 +47,21 @@ p {
 }
 
 .form-group{
-    padding: 0;
-    margin:0 auto;
-    margin-left: 30px;
     background-color: #e2e2e2;
+    padding: 0;
+    margin: 0 auto;
+    align-content: center;
 }
 
 .row {
     margin:0 auto;
+    padding-bottom: 10px;
+    background-color: #e2e2e2;
 }
 
 .login-input {
     border-radius: 0;
-    font-family: "InputFont";
+    font-family: CenturyGothic;
     font-size: 1.3em;
     text-align: center;
     padding: 15px;
@@ -65,16 +72,38 @@ p {
 
 a[name="register"] {
     text-decoration: underline;
-    background-color: #e2e2e2
+    background-color: #e2e2e2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 a[name="forgot"] {
     color: black;
-    background-color: #e2e2e2
+    background-color: #e2e2e2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5px;
+}
+
+a[name="goback"] {
+    color: black;
+    background-color: #e2e2e2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5px;
+}
+
+button[name="submit"]{
+    margin-top: 10px
+}
+
+input[name="memno"]{
+    margin-top: 10px;
+}
+
+input[name='email']{
+    margin-top: 10px;
 }
 
 .btn-login{
-    font-family: "InputFont";
+    font-family: CenturyGothic;
     font-size: 18px;
     text-align: center;
     height: 50px;
