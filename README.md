@@ -3,8 +3,8 @@
 
 
 ### Group Members:
-######- William Read
-######- Euan Campbell
-######- Liam Walsh
-######- Dean Ivanov
-######- Ty Osiefa
+###### -William Read
+###### -Euan Campbell
+###### -Liam Walsh
+###### -Dean Ivanov
+###### -Ty Osiefa
