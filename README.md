@@ -4,8 +4,8 @@
 
 ### Group Members:
 
--William Read
--Euan Campbell
--Liam Walsh
--Dean Ivanov
--Ty Osiefa
+-William Read__
+-Euan Campbell__
+-Liam Walsh__
+-Dean Ivanov__
+-Ty Osiefa__
