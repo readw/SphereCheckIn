@@ -16,7 +16,7 @@
     <h1>---register code here---</h1>
     
     <div>
-        <a href="login.php" class="btn" name="forgot">back to login</a>
+        <a href="index.php" class="btn" name="forgot">back to login</a>
     </div>
 </body>
 
