@@ -5,7 +5,7 @@
 ### Group Members and Assigned Functionalities:
 -William Read, Project Lead/Timetable  
 -Euan Campbell, Login  
--Liam Walsh, heck-In  
+-Liam Walsh, Check-In  
 -Dean Ivanov, Registration  
 -Ty Osiefa, Session View  
 
