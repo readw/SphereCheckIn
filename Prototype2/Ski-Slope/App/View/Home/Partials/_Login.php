@@ -4,24 +4,26 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="loginModal">User Login</h4>
+                <h4 class="modal-title" id="loginModal"><u>User Login</u></h4>
             </div>
             <div class="modal-body">
-                <form action="login" method="POST">
+                <form action="/Home/Auth" method="POST">
                     <div class="form-group">
                         <input type="mem" name="memno" class="form-control login-input" placeholder="membership no." size="60" maxlength="6">
                     </div>
+                    
+                    <div class="row">
+                        <div class="form-group col-xs-4">
+                            <input type="dob" class="dob form-control col-xs-4" name="day" placeholder="DD" maxlength="2">
+                        </div>
 
-                    <div class="form-group col-md-4">
-                        <input type="dob" class="dob form-control col-xs-4" name="day" placeholder="DD" maxlength="2">
-                    </div>
-                    
-                    <div class="form-group col-md-4">
-                        <input type="dob" class="dob form-control col-xs-4" name="month" placeholder="MM" maxlength="2">
-                    </div>
-                    
-                    <div class="form-group col-md-4">
-                        <input type="dob" class="dob form-control col-xs-4" name="year" placeholder="YYYY" maxlength="4">
+                        <div class="form-group col-xs-4">
+                            <input type="dob" class="dob form-control col-xs-4" name="month" placeholder="MM" maxlength="2">
+                        </div>
+
+                        <div class="form-group col-xs-4">
+                            <input type="dob" class="dob form-control col-xs-4" name="year" placeholder="YYYY" maxlength="4">
+                        </div>
                     </div>
     
                     <div class="form-group buttons">
@@ -33,10 +35,10 @@
             </div>
             <div class="modal-footer">
                 <div class="form-group">
-                    <a class="btn" name="register" href='.'>register</a>
+                    <a class="btn btn-link" name="registerModal">register</a>
                 </div>
                 <div class="form-group">
-                    <a class="btn" name="forgot" href='.'>forgotten membership no.</a>
+                    <a class="btn btn-link" name="forgot" href='.'>forgotten membership no.</a>
                 </div>
             </div>
         </div>

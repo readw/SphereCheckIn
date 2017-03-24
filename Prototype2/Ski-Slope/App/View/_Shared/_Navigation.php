@@ -12,7 +12,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="<?php echo('http://'.$_SERVER['HTTP_HOST'].'/Public/Home/'); ?>">
+                <a class="navbar-brand" href="/Home">
                     <img alt="SkiSlopeLogo" src="/Public/Media/Images/logo.png" />
                 </a>
 
@@ -23,14 +23,14 @@
 
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="<?php echo('http://'.$_SERVER['HTTP_HOST'].'/Public/TimeTable/Session/'); ?>">
+                        <a href="/TimeTable/Sessions">
                             <span class="glyphicon glyphicon-calendar"></span>
                             Timetable
                         </a>
                     </li>
-                    <?php if ($_REQUEST['user_permission'] > 1) { ?>
+                    <?php if ($_REQUEST['user_permission'] == 1 || $_REQUEST['user_permission'] == 3) { ?>
                         <li>
-                            <a href=".">
+                            <a href="/CheckIn">
                                 <span class="glyphicon glyphicon-time"></span>
                                 Check-In
                             </a>
@@ -38,7 +38,7 @@
                     <?php } ?>
                     <?php if ($_REQUEST['user_permission'] == 3) { ?>
                         <li>
-                            <a href=".">
+                            <a href="/Admin">
                                 <span class="glyphicon glyphicon-dashboard"></span>
                                 Admin
                             </a>
@@ -53,16 +53,17 @@
                             <?php echo($_REQUEST['user']) ?>
                             <span class="caret"></span>
                         </a>
+                        <?php if ($_REQUEST['user'] != 'Guest'){ ?>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href=".">
+                                <a href="">
                                     <span class="glyphicon glyphicon-cog"></span>
                                     User Settings
                                 </a>
                             </li>
                             <?php if ($_REQUEST['user_permission'] == 3) { ?>
                                 <li>
-                                    <a href=".">
+                                    <a href="">
                                         <span class="glyphicon glyphicon-wrench"></span>
                                         Admin Settings
                                     </a>
@@ -70,12 +71,14 @@
                             <?php } ?>
                             <li role="separator" class="divider"></li>
                             <li>
-                                <a href=".">
+                                <!--<a href="Logout">-->
+                                <a href="/Home/Logout">
                                     <span class="glyphicon glyphicon-log-out"></span>
                                     Log-Out
                                 </a>
                             </li>
                         </ul>
+                        <?php } ?>
                     </li>
                 </ul>
 

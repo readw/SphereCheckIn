@@ -1,3 +1,7 @@
 .alert {
     border-radius: 0;
 }
+
+.alert > .close {
+    margin-top: -7px;
+}
