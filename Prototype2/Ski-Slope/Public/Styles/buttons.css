@@ -1,0 +1,21 @@
+.btn {
+    transition: 0.3s ease;
+    border-radius: 0px;
+}
+
+.btn-help {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 0;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.btn-help:hover {
+    background: rgba(129, 219, 255, 0.7);
+    color: white;
+}
+
+.btn-help:focus {
+    color: white;
+}

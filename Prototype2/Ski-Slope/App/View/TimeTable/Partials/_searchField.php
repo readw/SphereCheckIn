@@ -8,13 +8,13 @@
         <span class="input-group-addon">
             <i class="glyphicon glyphicon-calendar"></i>
         </span>
-        <input type="text" class="form-control datepicker" placeholder="DD-MM-YYYY" name="date" 
-               value="<?php if(isset($_GET['date'])){ echo($_GET['date']); }  ?>"/>
+        <input type="text" class="form-control selectDate" placeholder="DD-MM-YYYY" name="date" 
+               value="<?php if(isset($_GET['date'])){ echo($_GET['date']); }  ?>" />
     </div>
     
     <div class="row">
         <div class="filter-group col-xs-6 col-sm-12">
-            <div class=" input-group">
+            <div class="input-group">
                 <span class="input-group-addon">
                     <i class="glyphicon glyphicon-time"></i>
                 </span>

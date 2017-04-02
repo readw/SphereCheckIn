@@ -1,0 +1,16 @@
+.table-navigation {
+    float: right;
+}
+
+.table-navigation .pagination>li>a {
+    border-radius: 0;
+    border-color: #777777;
+    background-color: rgba(129, 219, 255, 0.7);
+    color: #FFFFFF;
+    margin-bottom: -15px;
+    transition: 0.3s ease;
+}
+
+.table-navigation .pagination>li>a:hover {
+    background-color: rgba(47,150,255,0.3);
+}

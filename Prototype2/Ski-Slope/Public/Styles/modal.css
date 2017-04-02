@@ -1,14 +1,24 @@
 .modal {
-    color: black;
+    color: #000000;
+}
+
+.modal-header {
+    background: #777777;
+    border-radius: 5px 5px 0 0;
+    color: #FFFFFF;
     text-align: center;
 }
 
+.modal-body.sessions {
+    text-align: left;
+}
+
 .modal-footer .form-group > a.btn {
-    color: #777777
+    color: #777777;
 }
 
 .modal-footer .form-group > a.btn:hover {
-    color: #333333
+    color: #333333;
 }
 
 .buttons {
@@ -24,7 +34,7 @@ button.close {
     margin-top: -15px;
     opacity: 1;
     font-size: 1.6em;
-    transition: 0.3s ease
+    transition: 0.3s ease;
 }
 
 button.close:hover {

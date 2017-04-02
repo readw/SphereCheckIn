@@ -5,6 +5,7 @@
         public function __construct()
         {
             $this->authenticate = new Auth;
+            $this->register = new Register;
             $this->conn = new dbConnect;
         }
         
@@ -38,6 +39,24 @@
         <span aria-hidden="true">&times;</span>
     </button>
     <p><b>WARNING:</b> UserId or Date of Birth isn't correct.</p>
+</div>
+<?php
+            }
+            $this->index();
+        }
+        
+        public function register(){
+            $this->dbConn = $this->conn->connect();
+            if (isset($_POST['register'])){
+                if (isset($_POST['memno'])) {
+                    
+                }
+?>
+<div class="alert alert-danger" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <p><b>WARNING:</b> Please complete all required (*) fields for registration.</p>
 </div>
 <?php
             }

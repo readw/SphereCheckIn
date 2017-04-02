@@ -45,7 +45,7 @@
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #FFFFFF;
-    background-color: #333;
+    background-color: #777777;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
@@ -57,7 +57,7 @@
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
     color: #FFFFFF;
-    background-color: #333;
+    background-color: #777777;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu {
@@ -71,7 +71,7 @@
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #FFFFFF;
-    background-color: #333;
+    background-color: #777777;
 }
 
 /* caret */
@@ -109,7 +109,7 @@
 
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #333;
+        color: #333333;
         background-color: white;
     }
     .divider {

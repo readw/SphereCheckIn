@@ -4,5 +4,5 @@ $(document).ready(function(){
         dateFormat:"dd-mm-yy"
     };
     
-    $(".datepicker").datepicker(options);    
+    $(".selectDate").datepicker(options);    
 });

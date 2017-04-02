@@ -6,11 +6,16 @@ html, body {
 }
 
 body {
-    /* Euan Campbell's Background Styles */
-    background-repeat: no-repeat;
-    /*background-image: url("/Public/Media/Images/mountain.jpg");*/
+    /*background-repeat: no-repeat;
+    background-image: url("/Public/Media/Images/mountain.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: center center;*/
+    background-color: transparent;
+    color: white;
+    min-height: calc(100% - 60px);
+	position: relative;
+    /* Footer Element height */
+    padding-bottom: 100px;
 }
 
 h1 {
@@ -37,10 +42,6 @@ select {
     -moz-appearance: none;
     appearance: none;
 }*/
-
-.btn {
-    transition: 0.3s ease
-}
 
 .form-control {
     border-radius: 0;
@@ -80,5 +81,6 @@ select {
     
     100% {
         transform: scale( 1 );
+        animation-delay: 10s;
     }
 }

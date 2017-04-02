@@ -53,25 +53,22 @@
                             <?php echo($_REQUEST['user']) ?>
                             <span class="caret"></span>
                         </a>
-                        <?php if ($_REQUEST['user'] != 'Guest'){ ?>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="">
+                                <a href="/Settings">
                                     <span class="glyphicon glyphicon-cog"></span>
                                     User Settings
                                 </a>
                             </li>
                             <?php if ($_REQUEST['user_permission'] == 3) { ?>
                                 <li>
-                                    <a href="">
+                                    <a href="/Admin">
                                         <span class="glyphicon glyphicon-wrench"></span>
                                         Admin Settings
                                     </a>
                             </li>
-                            <?php } ?>
                             <li role="separator" class="divider"></li>
                             <li>
-                                <!--<a href="Logout">-->
                                 <a href="/Home/Logout">
                                     <span class="glyphicon glyphicon-log-out"></span>
                                     Log-Out

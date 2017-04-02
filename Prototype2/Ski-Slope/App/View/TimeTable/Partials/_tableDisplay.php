@@ -53,7 +53,6 @@
                                 echo "<td>Instructor</td>";
                             }
 
-
                             if ($_REQUEST['user_permission'] >= 1){
                                 echo "<td>";
 
@@ -87,6 +86,14 @@
                 ?>
             </tbody>
         </table>
+        
+        <div class="table-navigation">
+            <ul class="pagination">
+                <li><a href="TimeTable/Sessions">1</a></li>
+                <li><a href="TimeTable/Sessions">2</a></li>
+                <li><a href="TimeTable/Sessions">3</a></li>
+            </ul>
+        </div>
     </div>
     <?php
         }

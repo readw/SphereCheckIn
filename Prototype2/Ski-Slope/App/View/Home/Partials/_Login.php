@@ -4,7 +4,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="loginModal"><u>User Login</u></h4>
+                <h3 class="modal-title" id="loginModal"><u>User Login</u></h3>
             </div>
             <div class="modal-body">
                 <form action="/Home/Auth" method="POST">
@@ -38,7 +38,7 @@
                     <a class="btn btn-link" name="registerModal">register</a>
                 </div>
                 <div class="form-group">
-                    <a class="btn btn-link" name="forgot" href='.'>forgotten membership no.</a>
+                    <a class="btn btn-link" name="forgot" href=''>forgotten membership no.</a>
                 </div>
             </div>
         </div>

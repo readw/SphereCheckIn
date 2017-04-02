@@ -5,6 +5,7 @@
     require_once($_SERVER['DOCUMENT_ROOT']."/App/Model/Database.php");
     require_once($_SERVER['DOCUMENT_ROOT']."/App/Model/Sessions.php");
     require_once($_SERVER['DOCUMENT_ROOT']."/App/Model/Auth.php");
+    require_once($_SERVER['DOCUMENT_ROOT']."/App/Model/Register.php");
     require_once($_SERVER['DOCUMENT_ROOT']."/App/Model/Logout.php");
 
     // App Classes
